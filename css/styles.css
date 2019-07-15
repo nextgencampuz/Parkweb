@@ -36,17 +36,15 @@ h5 {
 }
 /* navigation bar */
 .container-fluid {
-  padding-left: 0;
+  background-color: red;
 }
 
 .navbar {
   font-size: 12px;
-  height: 9%;
   }
 
 .navbar-brand {
-  letter-spacing: 2.5px;
-padding: 0% 0%;
+  /* letter-spacing: 2.5px; */
 }
 
 .nav-item {
@@ -57,17 +55,20 @@ padding: 0% 0%;
 
 /* banner */
 .row {
+  padding-left: 50px;
   margin-right: 15%;
   margin-left: 15%;
   text-align: center;
 }
 
 .banner-text{
+  padding-left: 35px;
   padding-top: 35px;
 }
 
 #title {
   background-color: #218838;
+  margin-top: 60px;
   color: #fff;
 }
 
@@ -81,15 +82,6 @@ padding: 0% 0%;
   border-radius: 10%;
 }
 
-.top {
-  padding: 2% 15%;
-  margin-top: 4%;
-}
-
-.Banner {
-  margin: 15% 15%;
-}
-
 .menu-top {
   background-color: #E8EAF6;
   color: blue;
@@ -98,7 +90,7 @@ padding: 0% 0%;
 
 .logo {
   width: 10%;
-  padding-right: 2%;
+  /* padding-right: 2%; */
   font-family: "Montserrat";
   font-weight: bold;
 }
@@ -106,12 +98,10 @@ padding: 0% 0%;
 /* parking erp */
 .icon {
   color: #218838;
-
 }
 
 .icon:hover {
   color: #23eae6;
-
 }
 
 /* features */
@@ -185,9 +175,9 @@ em {
   padding: 3% 15%;
 }
 
-.banner-courosal{
+/* .banner-courosal{
   padding: 0% 0%;
-}
+} */
 /* press */
 
 #press {
